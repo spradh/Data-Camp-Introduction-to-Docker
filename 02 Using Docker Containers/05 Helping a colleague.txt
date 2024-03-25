@@ -1,0 +1,11 @@
+#1
+$ docker run -d --name colleague_project my_project
+492455f318db9c0728da6b3d8b4905e2a903b00004fb33c9abf68c59fe1363cd
+
+#2
+$ docker ps -f "name=colleague_project"
+CONTAINER ID   IMAGE        COMMAND                  CREATED              STATUS              PORTS     NAMES
+492455f318db   my_project   "/bin/sh -c 'tail -f…"   About a minute ago   Up About a minute       colleague_project
+
+#3
+$ docker logs colleague_project
