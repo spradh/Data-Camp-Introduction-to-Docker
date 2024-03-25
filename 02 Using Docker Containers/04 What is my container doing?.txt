@@ -1,0 +1,14 @@
+$ docker ps
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS     NAMES
+d854a982d337   analyze_data   "/bin/sh -c 'sh ./da…"   32 seconds ago   Up 31 seconds             exciting_meitner
+$ docker logs d854a982d337
+Unable to find configuration file.
+Unable to find configuration file.
+Unable to find configuration file.
+Unable to find configuration file.
+Unable to find configuration file.
+Unable to find configuration file.
+Unable to find configuration file.
+Unable to find configuration file.
+Unable to find configuration file.
+$
