@@ -1,0 +1,4 @@
+$ docker run -d postgres671d65135286eab2e0c52935ea044d4152fdf921f0103b479bb1dc78bf76ad8b
+$ docker psCONTAINER ID   IMAGE      COMMAND                  CREATED         STATUS         PORTS     NAMES
+671d65135286   postgres   "/bin/sh -c 'tail -f…"   3 seconds ago   Up 2 seconds             condescending_boyd
+$
