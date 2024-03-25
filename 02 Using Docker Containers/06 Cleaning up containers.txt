@@ -1,0 +1,7 @@
+#1
+$ docker stop colleague_project
+colleague_project
+
+#2
+$ docker container rm colleague_project
+colleague_project
