@@ -1,0 +1,4 @@
+$ docker tag spam:v1 docker.mycompany.com/spam:v1
+$ docker image push docker.mycompany.com/spam:v1
+The push refers to repository [docker.mycompany.com/spam]
+Get "https://docker.mycompany.com/v2/": dial tcp: lookup docker.mycompany.com on 169.254.20.10:53: no such host
