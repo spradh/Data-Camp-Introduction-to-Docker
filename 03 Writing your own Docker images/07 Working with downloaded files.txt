@@ -1,0 +1,14 @@
+$ touch Dockerfile
+
+-- Dockerfile
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install -y python3 curl unzip
+RUN curl https://assets.datacamp.com/production/repositories/6082/datasets/31a5052c6a5424cbb8d939a7a6eff9311957e7d0/pipeline_final.zip -o /pipeline_final.zip
+RUN unzip /pipeline_final.zip -d /
+RUN rm /pipeline_final.zip
+
+
+$ docker build -t pipeline .
+Sending build context to Docker daemon  3.584kB
+Error response from daemon: dockerfile parse error line 3: unknown instruction: CURL
