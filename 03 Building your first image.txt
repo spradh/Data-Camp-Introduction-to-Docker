@@ -1,0 +1,18 @@
+$ lsDockerfile
+$ cat DockerfileFROM ubuntu:22.04
+$ docker build .
+Sending build context to Docker daemon  9.216kB
+Step 1/1 : FROM ubuntu:22.04
+22.04: Pulling from library/ubuntu
+bccd10f490ab: Pull complete
+Digest: sha256:77906da86b60585ce12215807090eb327e7386c8fafb5402369e421f44eff17e
+Status: Downloaded newer image for ubuntu:22.04
+ ---> ca2b0f26964c
+Successfully built ca2b0f26964c
+$ docker build -t my_first_image .
+Sending build context to Docker daemon  9.216kB
+Step 1/1 : FROM ubuntu:22.04
+ ---> ca2b0f26964c
+Successfully built ca2b0f26964c
+Successfully tagged my_first_image:latest
+$
