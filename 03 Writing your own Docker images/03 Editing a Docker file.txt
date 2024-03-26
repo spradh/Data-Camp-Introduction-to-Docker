@@ -1,0 +1,11 @@
+$ echo "RUN mkdir my_app" >> Dockerfile
+$ docker build -t my_app .
+Sending build context to Docker daemon  10.75kB
+Step 1/2 : FROM ubuntu:22.04
+ ---> ca2b0f26964c
+Step 2/2 : RUN mkdir my_app
+ ---> Running in 0f96d976123d
+Removing intermediate container 0f96d976123d
+ ---> f027a4349537
+Successfully built f027a4349537
+Successfully tagged my_app:latest
