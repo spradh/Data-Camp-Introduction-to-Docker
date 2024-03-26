@@ -1,0 +1,11 @@
+$ docker pull docker.mycompany.com/spam_alice:v3
+Error response from daemon: 
+Get "https://docker.mycompany.com/v2/": dialtcp: lookup docker.mycompany.com on 169.254.20.10:53: no such host
+$ docker run docker.mycompany.com/spam_alice:v3
+Spam detection sample run. Spam correctly detected: 92%
+$ docker save -o spam_bob.tar spam_alice:v3
+Error response from daemon: reference does not exist
+$ docker load -i spam_bob.tar
+Loaded image: spam_bob:v3
+$ docker run spam_bob:v3
+Spam detection sample run. Spam correctly detected: 87%
