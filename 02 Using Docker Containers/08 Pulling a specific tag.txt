@@ -1,0 +1,11 @@
+$ docker imagesREPOSITORY          TAG       IMAGE ID       CREATED         SIZE
+mariadb             latest    05455a08881e   8 weeks ago     7.37MBproject_local_dev   latest    05455a08881e   8 weeks ago     7.37MB
+ubuntu              18.04     05455a08881e   8 weeks ago     7.37MB
+alpine              latest    05455a08881e   8 weeks ago     7.37MB
+hello-world         latest    d2c94e258dcb   10 months ago   13.3kB
+$ docker pull ubuntu:22.04
+22.04: Pulling from library/ubuntu
+bccd10f490ab: Pull complete
+Digest: sha256:77906da86b60585ce12215807090eb327e7386c8fafb5402369e421f44eff17e
+Status: Downloaded newer image for ubuntu:22.04
+docker.io/library/ubuntu:22.04
