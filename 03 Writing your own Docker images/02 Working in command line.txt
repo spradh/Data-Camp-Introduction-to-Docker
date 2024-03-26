@@ -1,0 +1,7 @@
+$ touch Dockerfile
+$ nano Dockerfile
+$ echo "RUN apt-get update" >> Dockerfile
+$ cat Dockerfile
+FROM ubuntu
+RUN apt-get update
+$
