@@ -1,0 +1,1 @@
+$ echo "COPY pipeline.py /app/" >> Dockerfile
