@@ -1,0 +1,8 @@
+$nano Dockerfile
+
+----Dockerfile----
+FROM ubuntu:22:04
+RUN useradd -m repl
+USER repl
+RUN mkdir /home/repl/projects/pipeline_file
+COPY /home/repl/project /home/repl/projects/pipeline_file
